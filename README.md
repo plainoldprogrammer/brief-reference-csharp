@@ -8,6 +8,13 @@ Brief reference of the C# programming language.
 using System;
 ```
 
+#### Define a namespace
+```
+namespace CustomNamespace
+{
+}
+```
+
 #### Define a class
 ```
 public class SomeClass
