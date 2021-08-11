@@ -21,3 +21,10 @@ public class SomeClass
 {
 }
 ```
+
+#### Define a method
+```
+public static void DoSomething()
+{
+}
+```
