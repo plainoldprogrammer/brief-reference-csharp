@@ -24,6 +24,13 @@ public class SomeClass
 
 #### Define a method
 ```
+public void DoSomething()
+{
+}
+```
+
+#### Define a static method
+```
 public static void DoSomething()
 {
 }
