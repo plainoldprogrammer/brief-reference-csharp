@@ -35,3 +35,8 @@ public static void DoSomething()
 {
 }
 ```
+
+#### Call to a method
+```
+DoSomething();
+```
