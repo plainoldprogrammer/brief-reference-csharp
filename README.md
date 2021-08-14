@@ -15,6 +15,11 @@ namespace CustomNamespace
 }
 ```
 
+#### Use a namespace
+```
+using CustomNamespace;
+```
+
 #### Define a class
 ```
 public class SomeClass
