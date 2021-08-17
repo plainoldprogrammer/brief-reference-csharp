@@ -27,6 +27,11 @@ public class SomeClass
 }
 ```
 
+#### Instantiate an object of a class
+```
+SomeClass someObject = new SomeClass();
+```
+
 #### Define a method
 ```
 public void DoSomething()
