@@ -50,3 +50,8 @@ public static void DoSomething()
 ```
 DoSomething();
 ```
+
+#### Define a static variable
+```
+public static float = 1.6;
+```
