@@ -55,3 +55,10 @@ DoSomething();
 ```
 public static float = 1.6;
 ```
+
+#### Entry point of the application
+```
+public static void Main(String[] args)
+{
+}
+```
