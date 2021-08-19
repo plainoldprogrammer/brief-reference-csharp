@@ -62,3 +62,8 @@ public static void Main(String[] args)
 {
 }
 ```
+
+#### Make nullable an integer
+```
+int? age = null;
+```
