@@ -67,3 +67,9 @@ public static void Main(String[] args)
 ```
 int? age = null;
 ```
+
+#### Check if a nullable integer has a value
+```
+int? age = null;
+age.HasValue.Dump();
+```
