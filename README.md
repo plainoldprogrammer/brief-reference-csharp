@@ -73,3 +73,12 @@ int? age = null;
 int? age = null;
 age.HasValue.Dump();
 ```
+
+#### Use the null coalescing operator
+```
+int? savingsAmount = null;
+int? debit = 500;
+
+int? available = savingsAmount ?? debit;
+available.Dump();
+```
