@@ -82,3 +82,9 @@ int? debit = 500;
 int? available = savingsAmount ?? debit;
 available.Dump();
 ```
+
+#### Boxing
+```
+int age = 30;
+Object someAge = age;
+```
