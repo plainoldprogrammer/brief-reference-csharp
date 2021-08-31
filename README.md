@@ -88,3 +88,8 @@ available.Dump();
 int age = 30;
 Object someAge = age;
 ```
+
+#### Preincrement
+```
+++someVariable;
+```
