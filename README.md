@@ -93,3 +93,8 @@ Object someAge = age;
 ```
 ++someVariable;
 ```
+
+#### Postincrement
+```
+someVariable++;
+```
