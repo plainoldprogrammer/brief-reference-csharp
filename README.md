@@ -108,3 +108,8 @@ namespace CustomNamespace
     }
 }
 ```
+
+#### Represent an integer big number in a friendly way
+```
+int number = 1_000_000;
+```
