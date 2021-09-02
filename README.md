@@ -98,3 +98,13 @@ Object someAge = age;
 ```
 someVariable++;
 ```
+
+#### Enclose a class into namespace
+```
+namespace CustomNamespace
+{
+    public class SomeClass
+    {
+    }
+}
+```
