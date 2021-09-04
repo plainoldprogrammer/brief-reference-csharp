@@ -113,3 +113,9 @@ namespace CustomNamespace
 ```
 int number = 1_000_000;
 ```
+
+#### Use the ternary operator
+```
+bool isValidId = true;
+bool canDrive = isValidId ? true : false;
+```
