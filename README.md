@@ -126,3 +126,13 @@ class ChildClass : ParentClass
 {
 }
 ```
+
+#### Implement an interface
+```
+class SomeClass : IInterfaceToImplement
+{
+    void MethodToImplement()
+    {
+    }
+}
+```
