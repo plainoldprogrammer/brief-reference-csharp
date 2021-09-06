@@ -119,3 +119,10 @@ int number = 1_000_000;
 bool isValidId = true;
 bool canDrive = isValidId ? true : false;
 ```
+
+#### Inherit from a class
+```
+class ChildClass : ParentClass
+{
+}
+```
