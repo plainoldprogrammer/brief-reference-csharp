@@ -136,3 +136,10 @@ class SomeClass : IInterfaceToImplement
     }
 }
 ```
+
+#### Check if an object reference is null
+```
+if (someObject == null)
+{
+}
+```
