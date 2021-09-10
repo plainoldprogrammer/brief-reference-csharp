@@ -143,3 +143,9 @@ if (someObject == null)
 {
 }
 ```
+
+#### Create a list of strings
+```
+List<String> names = new List<String>();
+```
+####
