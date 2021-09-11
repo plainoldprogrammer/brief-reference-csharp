@@ -149,3 +149,8 @@ if (someObject == null)
 List<String> names = new List<String>();
 ```
 ####
+
+#### Create an array of integers
+```
+int[] someYears = new int[] { 1986, 1989, 1999 };
+```
