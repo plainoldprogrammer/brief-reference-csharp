@@ -154,3 +154,9 @@ List<String> names = new List<String>();
 ```
 int[] someYears = new int[] { 1986, 1989, 1999 };
 ```
+
+#### Declare a const
+```
+public const double PI = 3.1416;
+```
+
