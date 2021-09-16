@@ -164,3 +164,8 @@ public const double PI = 3.1416;
 ```
 Console.WriteLine("Hello!");
 ```
+
+#### Read a line
+```
+string input = Console.ReadLine();
+```
