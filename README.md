@@ -160,3 +160,7 @@ int[] someYears = new int[] { 1986, 1989, 1999 };
 public const double PI = 3.1416;
 ```
 
+#### Print a message
+```
+Console.WriteLine("Hello!");
+```
