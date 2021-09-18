@@ -175,3 +175,8 @@ string input = Console.ReadLine();
 double pi = 3.1416;
 int value = (int) pi;
 ```
+
+#### And operator
+```
+bool canDrive = hasGoodVision && isOlder;
+```
