@@ -187,3 +187,9 @@ bool isEngineer = false;
 bool isDeveloper = true;
 bool canDevelopSoftware = isEngineer || isDeveloper;
 ```
+
+#### Select all the elements from a collection
+```
+var result = someCollection.Select(x => x);
+```
+
