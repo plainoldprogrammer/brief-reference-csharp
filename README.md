@@ -180,3 +180,10 @@ int value = (int) pi;
 ```
 bool canDrive = hasGoodVision && isOlder;
 ```
+
+#### Or operator
+```
+bool isEngineer = false;
+bool isDeveloper = true;
+bool canDevelopSoftware = isEngineer || isDeveloper;
+```
