@@ -198,3 +198,9 @@ var result = someCollection.Select(x => x);
 int year = 2021;
 @"Hi, currently is {year}!"
 ```
+
+#### Get the type of an object
+```
+var i = 600;
+Console.WriteLine("{0}", i.GetType());
+```
