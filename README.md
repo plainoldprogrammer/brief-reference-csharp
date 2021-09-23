@@ -193,3 +193,8 @@ bool canDevelopSoftware = isEngineer || isDeveloper;
 var result = someCollection.Select(x => x);
 ```
 
+#### Verbatim string
+```
+int year = 2021;
+@"Hi, currently is {year}!"
+```
