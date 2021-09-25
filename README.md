@@ -204,3 +204,13 @@ int year = 2021;
 var i = 600;
 Console.WriteLine("{0}", i.GetType());
 ```
+
+#### Different ways of build a string
+```
+string name = "John Doe";
+int age = 35;
+
+Console.WriteLine(name + " is " + age + " years old");	// String concatenation
+Console.WriteLine("{0} is {1} years old", name, age);	// Composite formatting
+Console.WriteLine($"{name} is {age} years old");		// String interpolation
+```
