@@ -214,3 +214,18 @@ Console.WriteLine(name + " is " + age + " years old");	// String concatenation
 Console.WriteLine("{0} is {1} years old", name, age);	// Composite formatting
 Console.WriteLine($"{name} is {age} years old");		// String interpolation
 ```
+
+#### Collection initializer syntax
+```
+Ticket ticket1 = new Ticket { Description = "Udemy Course", Ammount = 11 };
+Ticket ticket2 = new Ticket { Description = "Pluralsight Annual Suscription", Ammount = 299 };
+Ticket ticket3 = new Ticket { Description = "Icecream", Ammount = 5 };
+
+List<Ticket> tickets = new List<Ticket>()
+{
+    ticket1,
+    ticket2,
+    ticket3
+};
+```
+    
