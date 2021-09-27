@@ -228,4 +228,8 @@ List<Ticket> tickets = new List<Ticket>()
     ticket3
 };
 ```
-    
+
+#### Get the max id from a table
+```
+book.Id = bookshelfDbContext.Books.Max(x => x.Id);
+```
