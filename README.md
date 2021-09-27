@@ -233,3 +233,8 @@ List<Ticket> tickets = new List<Ticket>()
 ```
 book.Id = bookshelfDbContext.Books.Max(x => x.Id);
 ```
+
+#### Clear the screen
+```
+Console.Clear();
+```
