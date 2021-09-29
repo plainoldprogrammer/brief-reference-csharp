@@ -238,3 +238,11 @@ book.Id = bookshelfDbContext.Books.Max(x => x.Id);
 ```
 Console.Clear();
 ```
+
+#### Get the type of the current instance
+```
+var i = 600;
+Console.WriteLine("{0}", i.GetType());
+
+NOTE: GetType is an instance method of the Object class.
+```
