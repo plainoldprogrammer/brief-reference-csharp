@@ -3,6 +3,11 @@ Brief reference of the C# programming language.
 
 ---
 
+#### Single line comment
+```
+// this is a single line comment
+```
+
 #### Use a namespace
 ```
 using System;
