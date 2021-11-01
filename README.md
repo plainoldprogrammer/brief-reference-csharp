@@ -8,6 +8,14 @@ Brief reference of the C# programming language.
 // this is a single line comment
 ```
 
+#### Multi line comment
+```
+/*
+This is a multi line
+comment
+*/
+```
+
 #### Use a namespace
 ```
 using System;
