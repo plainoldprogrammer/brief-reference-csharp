@@ -259,3 +259,8 @@ Console.WriteLine("{0}", i.GetType());
 
 NOTE: GetType is an instance method of the Object class.
 ```
+
+#### Evaluate if an object is null and assign another object
+```
+someObject ??= nonEmptyObject;
+```
