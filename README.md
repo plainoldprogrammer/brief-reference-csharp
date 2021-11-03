@@ -264,3 +264,8 @@ NOTE: GetType is an instance method of the Object class.
 ```
 someObject ??= nonEmptyObject;
 ```
+
+#### Use the object that is not null
+```
+someObject ?? otherObject
+```
