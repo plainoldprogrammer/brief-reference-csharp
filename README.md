@@ -269,3 +269,13 @@ someObject ??= nonEmptyObject;
 ```
 someObject ?? otherObject
 ```
+
+#### Check if an object is not null
+```
+Person p = new Person();
+
+if (p is not null)
+{
+    doSomething();
+}
+```
