@@ -279,3 +279,13 @@ if (p is not null)
     doSomething();
 }
 ```
+
+#### Check if an object is null
+```
+Person p = new Person();
+
+if (p is null)
+{
+    Console.WriteLine("p is null");
+}
+```
