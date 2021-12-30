@@ -290,7 +290,7 @@ if (p is null)
 }
 ```
 
-#### check if an object type is of an specific class
+#### Check if an object type is of an specific class
 ```
 Employee ceo = new Employee();
 
@@ -298,4 +298,10 @@ if (ceo is Employee)
 {
     Console.WriteLine("the ceo is an employee");
 }
+```
+
+#### Import a static class from a namespace
+```
+using static System.Console;
+WriteLine("Hello World!");
 ```
