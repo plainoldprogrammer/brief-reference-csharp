@@ -289,3 +289,13 @@ if (p is null)
     Console.WriteLine("p is null");
 }
 ```
+
+#### check if an object type is of an specific class
+```
+Employee ceo = new Employee();
+
+if (ceo is Employee)
+{
+    Console.WriteLine("the ceo is an employee");
+}
+```
