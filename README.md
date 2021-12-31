@@ -305,3 +305,8 @@ if (ceo is Employee)
 using static System.Console;
 WriteLine("Hello World!");
 ```
+
+#### Get the enumerator from an enumerable
+```
+var result = someCollection.GetEnumerator();
+```
