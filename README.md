@@ -323,3 +323,16 @@ for (int i = 0; i < 10; i++)
     Console.WriteLine(i);
 }
 ```
+
+#### Exit at the current iteration of a loop using break
+```
+for (int i = 0; i < 10; i++)
+{
+    if (i == 5)
+    {
+        break;
+    }
+    
+    Console.WriteLine(i);
+}
+```
