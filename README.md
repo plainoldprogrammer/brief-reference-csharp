@@ -336,3 +336,14 @@ for (int i = 0; i < 10; i++)
     Console.WriteLine(i);
 }
 ```
+
+#### Print the application arguments
+```
+static void Main(string[] args)
+{
+    foreach (var arg in args)
+    {
+        Console.WriteLine(arg);
+    }
+}
+```
