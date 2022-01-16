@@ -347,3 +347,10 @@ static void Main(string[] args)
     }
 }
 ```
+
+#### Assign a variable its default value for its data type
+```
+string name = default;
+int age = default;
+object = someObject = default;
+```
