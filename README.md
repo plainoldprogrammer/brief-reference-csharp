@@ -354,3 +354,11 @@ string name = default;
 int age = default;
 object = someObject = default;
 ```
+
+#### Use verbatim string and string interpolation
+```
+var operatingSystem = "Windows";
+Console.WriteLine($@"Check c:\tmp\; directory on {operatingSystem}");
+
+NOTE: The order of $ and @ doesn't matter.
+```
