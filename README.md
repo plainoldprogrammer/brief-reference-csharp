@@ -362,3 +362,9 @@ Console.WriteLine($@"Check c:\tmp\; directory on {operatingSystem}");
 
 NOTE: The order of $ and @ doesn't matter.
 ```
+
+#### Verify that a primitive data type has an alias
+```
+double pi = 3.1416;
+Console.WriteLine(pi is System.Double);
+```
