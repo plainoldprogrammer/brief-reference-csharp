@@ -368,3 +368,9 @@ NOTE: The order of $ and @ doesn't matter.
 double pi = 3.1416;
 Console.WriteLine(pi is System.Double);
 ```
+
+#### Verify that primitive types inherits from ValueType
+```
+double pi = 3.1416;
+Console.WriteLine(pi is System.ValueType);
+```
