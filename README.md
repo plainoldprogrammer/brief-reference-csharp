@@ -374,3 +374,8 @@ Console.WriteLine(pi is System.Double);
 double pi = 3.1416;
 Console.WriteLine(pi is System.ValueType);
 ```
+
+#### Create a string from a list of char
+```
+var myString = new string(array1.ToArray());
+```
