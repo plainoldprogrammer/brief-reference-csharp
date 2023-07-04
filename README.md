@@ -393,3 +393,16 @@ public static void SayHello()
     Console.WriteLine("Hello World!");		
 }
 ```
+
+#### specifying how to use positional parameters
+```
+public static void Main(string[] args)
+{
+    SayHello(lastName: "Doe", firstName: "John");
+}
+
+public static void SayHello(string firstName, string lastName)
+{
+    Console.WriteLine($"Hello, I'm {firstName} {lastName}");
+}
+```
