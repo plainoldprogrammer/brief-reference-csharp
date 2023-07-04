@@ -379,3 +379,17 @@ Console.WriteLine(pi is System.ValueType);
 ```
 var myString = new string(array1.ToArray());
 ```
+
+#### Point an action to a method that returns void
+```
+public static void Main(string[] args)
+{
+    Action someFunc = SayHello;
+    someFunc();
+}
+
+public static void SayHello()
+{
+    Console.WriteLine("Hello World!");		
+}
+```
