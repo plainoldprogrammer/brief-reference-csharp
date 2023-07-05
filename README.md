@@ -394,7 +394,7 @@ public static void SayHello()
 }
 ```
 
-#### specifying how to use positional parameters
+#### Specifying how to use positional parameters
 ```
 public static void Main(string[] args)
 {
