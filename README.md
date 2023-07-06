@@ -394,7 +394,7 @@ public static void SayHello()
 }
 ```
 
-#### Specifying how to use positional parameters
+#### Use positional parameters
 ```
 public static void Main(string[] args)
 {
@@ -404,5 +404,24 @@ public static void Main(string[] args)
 public static void SayHello(string firstName, string lastName)
 {
     Console.WriteLine($"Hello, I'm {firstName} {lastName}");
+}
+```
+
+#### Define an enum
+```
+enum Color
+{
+    Red = 1,
+    Green = 2,
+    Blue = 3
+}
+
+public static void Main(string[] args)
+{
+    Color importantMessage = Color.Red;
+    if (importantMessage == Color.Red)
+    {
+        Console.WriteLine("There was an error");
+    }
 }
 ```
