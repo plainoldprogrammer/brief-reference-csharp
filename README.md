@@ -425,3 +425,9 @@ public static void Main(string[] args)
     }
 }
 ```
+
+#### Define and use a tuple
+```
+var tuple = new Tuple<string, string, int>("John", "Doe", 95);
+Console.WriteLine($"Hello, I'm {tuple.Item1} {tuple.Item2}, and I'm {tuple.Item3} years old");
+```
