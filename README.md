@@ -431,3 +431,12 @@ public static void Main(string[] args)
 var tuple = new Tuple<string, string, int>("John", "Doe", 95);
 Console.WriteLine($"Hello, I'm {tuple.Item1} {tuple.Item2}, and I'm {tuple.Item3} years old");
 ```
+
+#### Generate two different guids
+```
+var guid1 = Guid.NewGuid();
+Console.WriteLine(guid1);
+
+var guid2 = Guid.NewGuid();
+Console.WriteLine(guid2);
+```
