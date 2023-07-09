@@ -440,3 +440,14 @@ Console.WriteLine(guid1);
 var guid2 = Guid.NewGuid();
 Console.WriteLine(guid2);
 ```
+
+#### Declare a list using collection initializer
+```
+List<string> cities = new()
+{
+    "Dallas",
+    "San Antonio",
+    "Houston",
+    "Austin"
+};
+```
