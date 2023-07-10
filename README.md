@@ -451,3 +451,11 @@ List<string> cities = new()
     "Austin"
 };
 ```
+
+#### Execute code only in debug mode
+```
+if (Debugger.IsAttached)
+{
+    // code to execute
+}
+```
