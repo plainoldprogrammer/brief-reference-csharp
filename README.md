@@ -459,3 +459,19 @@ if (Debugger.IsAttached)
     // code to execute
 }
 ```
+
+#### Pass variable number of parameters using the params keyword
+```
+public static void PrintNames(params String[] names)
+{
+    foreach (string name in names)
+    {
+        Console.WriteLine(name);
+    }
+}
+
+public static void Main(String[] args)
+{
+    PrintNames("John, Jane, Joe");
+}
+```
