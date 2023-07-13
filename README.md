@@ -475,3 +475,28 @@ public static void Main(String[] args)
     PrintNames("John, Jane, Joe");
 }
 ```
+
+#### Define an override an abstract class
+```
+public class Program
+{
+    public abstract class Human
+    {
+        public abstract void SayHello();
+    }
+    
+    public class Person : Human
+    {
+        public override void SayHello()
+        {
+            Console.WriteLine("Hello World!");
+        }
+    }
+    
+    public static void Main(String[] args)
+    {
+        Person person = new Person();
+        person.SayHello();
+    }
+}
+```
