@@ -500,3 +500,12 @@ public class Program
     }
 }
 ```
+
+#### Use collection initializer
+```
+Dictionary<string, string> dictionaries = new Dictionary<string, string>()
+{
+    ["ES"] = "Español",
+    ["EN"] = "English"
+};
+```
